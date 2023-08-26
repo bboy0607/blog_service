@@ -1,0 +1,48 @@
+2023/08/11 17:01:16 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 23 main.init.0"],"message":"%s: go-programming-tour-book/%shankblogservice","time":1691744476809623900}
+2023/08/11 17:01:32 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 23 main.init.0"],"message":"hank: go-programming-tour-book/blogservice","time":1691744492947714700}
+2023/08/11 17:32:28 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 23 main.init.0"],"message":"hank: go-programming-tour-book/blogservice","time":1691746348147859700}
+2023/08/12 14:40:28 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 23 main.init.0"],"message":"hank: go-programming-tour-book/blogservice","time":1691822428320534200}
+2023/08/12 14:40:32 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 23 main.init.0"],"message":"hank: go-programming-tour-book/blogservice","time":1691822432549898900}
+2023/08/14 19:25:56 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: ","time":1692012356772806700}
+2023/08/14 19:26:17 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: ","time":1692012377941574100}
+2023/08/14 19:29:28 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: ","time":1692012568840477000}
+2023/08/14 19:29:29 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: ","time":1692012569847536300}
+2023/08/14 20:02:43 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: ","time":1692014563195910200}
+2023/08/14 20:02:53 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: ","time":1692014573767210900}
+2023/08/14 20:04:51 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: ","time":1692014691721448000}
+2023/08/14 20:08:18 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: ","time":1692014898859361700}
+2023/08/14 20:10:49 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: ","time":1692015049067979500}
+2023/08/14 20:11:19 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: ","time":1692015079712511700}
+2023/08/14 20:56:43 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: State必须是[01]中的一个","time":1692017803818099700}
+2023/08/17 12:37:43 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: State必须是[01]中的一个","time":1692247063008080400}
+2023/08/17 12:42:09 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: State必须是[01]中的一个,CreatedBy为必填字段","time":1692247329114911100}
+2023/08/17 12:43:32 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: CreatedBy为必填字段,State必须是[01]中的一个","time":1692247412943495400}
+2023/08/17 12:45:41 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: CreatedBy为必填字段,State必须是[01]中的一个","time":1692247541366276800}
+2023/08/17 12:45:43 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: CreatedBy为必填字段,State必须是[01]中的一个","time":1692247543933583200}
+2023/08/17 12:45:44 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: CreatedBy为必填字段,State必须是[01]中的一个","time":1692247544484177000}
+2023/08/17 12:45:45 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: CreatedBy为必填字段,State必须是[01]中的一个","time":1692247545714766700}
+2023/08/17 13:05:17 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: CreatedBy为必填字段,State必须是[01]中的一个","time":1692248717160306500}
+2023/08/17 13:11:53 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: CreatedBy为必填字段,State必须是[01]中的一个","time":1692249113007240900}
+2023/08/17 13:13:30 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: CreatedBy为必填字段,State必须是[01]中的一个","time":1692249210334375100}
+2023/08/17 13:13:50 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: CreatedBy为必填字段,State必须是[01]中的一个","time":1692249230486556600}
+2023/08/17 13:18:29 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: State必须是[01]中的一个,CreatedBy为必填字段","time":1692249509969088800}
+2023/08/17 13:23:46 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: State必须是[01]中的一个","time":1692249826160192900}
+2023/08/17 13:23:47 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: State必须是[01]中的一个","time":1692249827999484400}
+2023/08/17 13:28:39 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: CreatedBy为必填字段,State必须是[01]中的一个","time":1692250119561412000}
+2023/08/17 13:28:51 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: CreatedBy为必填字段","time":1692250131088538000}
+2023/08/17 13:29:29 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: CreatedBy为必填字段","time":1692250169312311700}
+2023/08/17 13:31:58 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: Name长度必须至少为3个字符","time":1692250318473009300}
+2023/08/17 13:33:55 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: Name为必填字段,CreatedBy为必填字段","time":1692250435856842800}
+2023/08/17 13:34:03 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: State必须是[01]中的一个","time":1692250443801619600}
+2023/08/17 13:55:11 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: Name长度必须至少为3个字符,State为必填字段","time":1692251711992959800}
+2023/08/17 14:09:33 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: Name长度必须至少为3个字符","time":1692252573555825000}
+2023/08/17 14:10:10 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"svc.UpdateTag err: sql: expected 5 arguments, got 11","time":1692252610383332600}
+2023/08/17 14:15:28 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"svc.UpdateTag err: sql: expected 5 arguments, got 11","time":1692252928292798200}
+2023/08/17 15:18:34 {"callers":["c:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"svc.UpdateTag err: sql: expected 5 arguments, got 11","time":1692256714496401400}
+2023/08/17 15:48:39 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"svc.UpdateTag err: sql: expected 6 arguments, got 5","time":1692258519655662400}
+2023/08/18 13:44:20 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"svc.UploadFile err: file suffix is not supported","time":1692337460602377400}
+2023/08/20 12:09:35 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1692504575336269700}
+2023/08/20 12:11:06 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"svc.ChechAuth err: auth info does not exist.","time":1692504666707743400}
+2023/08/20 12:11:48 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.GenerateToken err: key is of invalid type","time":1692504708646584200}
+2023/08/20 12:20:26 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"svc.ChechAuth err: auth info does not exist.","time":1692505226450934800}
+2023/08/20 12:20:31 {"callers":["C:/Users/bboy0/GolandProjects/book/2-2n/blog-service/main.go: 24 main.init.0"],"message":"app.GenerateToken err: key is of invalid type","time":1692505231530104000}

@@ -1,0 +1,73 @@
+# Configuration for the server
+Server: 
+  # Run mode: "debug" or "release"
+  RunMode: "debug"
+  # HTTP port to listen on
+  HttpPort: 8000
+  # Read timeout for incoming requests
+  ReadTimeout: 60
+  # Write timeout for outgoing responses
+  WriteTimeout: 60
+
+# Configuration for the application
+App:
+  # Default page size for pagination
+  DefaultPageSize: 10
+  # Maximum page size for pagination
+  MaxPageSize: 100
+  # Path to save log files
+  LogSavePath: storage/logs
+  # Log file name
+  LogFileName: app
+  # Log file extension
+  LogFileExt: .log
+  #
+  UploadSavePath: storage/uploads
+  #
+  UploadServerUrl: http://127.0.0.1:8080/static
+  #
+  UploadImageMaxSize: 5 #MB
+  #
+  UploadImageAllowExts:
+  - .jpg
+  - .jpeg
+  - .png
+  # Second
+  DefaultContextTimeout: 60
+
+# Configuration for the database
+Database:
+  # Type of database (e.g., "mysql", "postgres")
+  DBType: mysql
+  # Username for database connection
+  Username: root
+  # Password for database connection
+  Password: 1234
+  # Host of the database server
+  Host: 127.0.0.1:3306
+  # Name of the database
+  DBName: blog_service
+  # Prefix for table names
+  TablePrefix: blog_
+  # Character set for the database
+  Charset: utf8
+  # Parse time option for database connection
+  ParseTime: true
+  # Maximum idle connections
+  MaxIdleConns: 10
+  # Maximum open connections
+  MaxOpenConns: 30
+
+JWT:
+  Secret: hank
+  Issuer: blog-service
+  Expire: 7200
+
+SMTP:
+  Host: smtp.gmail.com
+  Port: 587
+  UserName: bboy0607@gmail.com
+  Password: 
+  IsSSL: true
+  From: bboy0607@gmail.com
+  To: bboy0607@gmail.com
