@@ -1,7 +1,7 @@
 # Configuration for the server
 Server: 
   # Run mode: "debug" or "release"
-  RunMode: "debug"
+  RunMode: release
   # HTTP port to listen on
   HttpPort: 8000
   # Read timeout for incoming requests
@@ -63,11 +63,11 @@ JWT:
   Issuer: blog-service
   Expire: 7200
 
-SMTP:
+Email:
   Host: smtp.gmail.com
-  Port: 587
-  UserName: bboy0607@gmail.com
-  Password: 
+  Port: 465
+  UserName: xxx@gmail.com
+  Password: xxx
   IsSSL: true
-  From: bboy0607@gmail.com
-  To: bboy0607@gmail.com
+  From: xxx@gmail.com
+  To: xxx@gmail.com

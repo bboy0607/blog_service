@@ -7,6 +7,7 @@ import (
 	"blog-service/pkg/logger"
 	"blog-service/pkg/setting"
 	"blog-service/pkg/tracer"
+	"fmt"
 	"log"
 	"time"
 
@@ -33,7 +34,7 @@ func init() {
 }
 
 func main() {
-
+	fmt.Println("-----------" + global.ServerSetting.RunMode)
 	r := routers.NewRouter()
 	r.Run(":8080")
 

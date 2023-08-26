@@ -39,7 +39,7 @@ func AccessLog() gin.HandlerFunc {
 			"response": bodyWriter.body.String(),
 		}
 
-		s := "access log: %s, status_code: &d, " + "begin_time: %d, end_time: %d"
+		s := "access log: %s, status_code: %d, " + "begin_time: %d, end_time: %d"
 		global.Logger.WithFields(fields).Infof(c, s,
 			c.Request.Method,
 			bodyWriter.Status(),
