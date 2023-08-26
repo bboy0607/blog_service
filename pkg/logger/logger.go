@@ -159,34 +159,42 @@ func (l *Logger) Output(level Level, message string) {
 }
 
 // 記錄檔分級輸出
-func (l *Logger) Info(v ...interface{}) {
+func (l *Logger) Info(ctx context.Context, v ...interface{}) {
+	l = l.WithContext(ctx).WithTrace()
 	l.Output(LevelInfo, fmt.Sprint(v...))
 }
 
-func (l *Logger) Infof(format string, v ...interface{}) {
+func (l *Logger) Infof(ctx context.Context, format string, v ...interface{}) {
+	l = l.WithContext(ctx).WithTrace()
 	l.Output(LevelInfo, fmt.Sprintf(format, v...))
 }
 
-func (l *Logger) Fatal(v ...interface{}) {
+func (l *Logger) Fatal(ctx context.Context, v ...interface{}) {
+	l = l.WithContext(ctx).WithTrace()
 	l.Output(LevelFatal, fmt.Sprint(v...))
 }
 
-func (l *Logger) Fatalf(format string, v ...interface{}) {
+func (l *Logger) Fatalf(ctx context.Context, format string, v ...interface{}) {
+	l = l.WithContext(ctx).WithTrace()
 	l.Output(LevelFatal, fmt.Sprintf(format, v...))
 }
 
-func (l *Logger) Error(v ...interface{}) {
+func (l *Logger) Error(ctx context.Context, v ...interface{}) {
+	l = l.WithContext(ctx).WithTrace()
 	l.Output(LevelError, fmt.Sprint(v...))
 }
 
-func (l *Logger) Errorf(format string, v ...interface{}) {
+func (l *Logger) Errorf(ctx context.Context, format string, v ...interface{}) {
+	l = l.WithContext(ctx).WithTrace()
 	l.Output(LevelError, fmt.Sprintf(format, v...))
 }
 
-func (l *Logger) Panic(v ...interface{}) {
+func (l *Logger) Panic(ctx context.Context, v ...interface{}) {
+	l = l.WithContext(ctx).WithTrace()
 	l.Output(LevelPanic, fmt.Sprint(v...))
 }
 
-func (l *Logger) Panicf(format string, v ...interface{}) {
+func (l *Logger) Panicf(ctx context.Context, format string, v ...interface{}) {
+	l = l.WithContext(ctx).WithTrace()
 	l.Output(LevelPanic, fmt.Sprintf(format, v...))
 }
